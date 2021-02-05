@@ -1,0 +1,135 @@
+body {
+    margin: 0%;
+    background-color: black;
+}
+
+
+header, nav, footer {
+    height: 10vh;
+    width: 100%;
+    border-radius: 3px;
+}
+
+
+.header {
+    /*background-color: #3d2645;*/
+    text-align: center;
+    color: #dce0d9;
+    padding-top: 30px;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+
+.nav {
+    background-color: #832161;
+    border-bottom: 2px solid #0892a5;
+    border-top: 2px solid #0892a5;
+    position: sticky;
+    top: 0px;
+    
+}
+
+
+.footer {
+    background-color: black;
+    border-top: 2px solid #0892a5;
+    color: #dce0d9;
+    
+}
+
+
+.section {
+    width: 25%;
+    height: 57vh;
+    margin: 136px;
+    background-image: linear-gradient(#3d2645, black);
+    display: inline-block;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #dce0d9;
+    
+}
+
+
+.space {
+    background-color: black;
+    width: 100%;
+    height: 25vh;
+    display: inline-block;
+
+}
+
+.space h2 {
+    color: #dce0d9;
+    font-family: 'oswald', cursive;
+    text-align: center;
+    padding: 20px;
+}
+
+.article {
+    width: 40%; 
+    height: 30vh; 
+    margin: 88px;
+    background-color: #dce0d9;
+    border-radius: 5px;
+    display: inline-block;
+    
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #dce0d9;
+    display: inline-block;
+    padding: 8px;
+    margin: 10px;
+    border: 1px solid #0892a5;
+    border-radius: 3px;
+    font-family: 'Oswald', sans-serif;
+}
+
+a:hover {
+    background-color: #0892a5;
+}
+
+
+nav img {
+    display: inline-block;
+    max-width: 15%;
+    height: 10vh;
+    float: right;
+    border-radius: 3px;
+
+}
+
+
+.mpage img {
+width: 30%;
+height: 55vh;
+display: inline-block;
+float: left;
+padding-top: 30px;
+border-radius: 3px;
+/*position: sticky;
+top: 10px;*/
+
+}
+
+.section h3 {
+    padding: 10% 10% 10% 10%;
+    font-family: 'Oswald' sans-serif;
+
+}
+
+
+.footer img {
+    display: inline;
+    max-width: 15%;
+    height: 10vh;
+    float: left;
+    border-radius: 2px;
+    padding-left: 2%;
+
+}
