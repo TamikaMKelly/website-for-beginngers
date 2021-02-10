@@ -200,10 +200,13 @@ margin: 5%;
   .flip-card-front {
     background-color: #3d2645;
     color: #dce0d9;
-
-    
   }
 
+  /**.flip-card-front > h3 {
+      padding: 10% 10% 10% 10%;
+      font-family: 'oswald' sans-serif;
+  }**/
+  
   .flip-card-back {
     background-color: #0892a5;
     color: #dce0d9;
