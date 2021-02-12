@@ -16,7 +16,7 @@ header, nav, footer {
     text-align: center;
     color: #dce0d9;
     padding-top: 30px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Lexend Mega', sans-serif;
     
 }
 
@@ -27,7 +27,32 @@ header, nav, footer {
     border-top: 2px solid #0892a5;
     position: sticky;
     top: 0px;
+    z-index: 3;
     
+}
+
+nav > a {
+    text-decoration: none;
+    color: #dce0d9;
+    display: inline-block;
+    padding: 8px;
+    margin: 10px;
+    border: 1px solid #0892a5;
+    border-radius: 3px;
+    font-family: 'Roboto', sans-serif;
+}
+
+a:hover {
+    background-color: #3d2645;
+}
+
+nav img {
+    display: inline-block;
+    max-width: 15%;
+    height: 10vh;
+    float: right;
+    border-radius: 3px;
+
 }
 
 
@@ -46,26 +71,26 @@ header, nav, footer {
     margin: 136px;
     background-color: #3d2645;
     display: inline-block;
-    border-radius: 5px;
     box-sizing: border-box;
     color: #dce0d9;
-    position: static;
-    z-index: 6;    
+    /**position: relative;**/
+       
 }
 
 
 
 .space {
-    background-color: black;
+    background-color: #3d2645;
     width: 100%;
     height: 25vh;
     display: inline-block;
 
 }
 
-.space h2 {
+.space > p {
     color: #dce0d9;
-    font-family: 'oswald', sans-serif;
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: large;
     text-align: center;
     padding: 20px;
 }
@@ -80,37 +105,12 @@ header, nav, footer {
     
 }
 
-.article p {
+.article > p {
     padding: 10%;
     color: #dce0d9;
-    font-family: 'oswald' sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
-
-a {
-    text-decoration: none;
-    color: #dce0d9;
-    display: inline-block;
-    padding: 8px;
-    margin: 10px;
-    border: 1px solid #0892a5;
-    border-radius: 3px;
-    font-family: 'Oswald', sans-serif;
-}
-
-a:hover {
-    background-color: #0892a5;
-}
-
-
-nav img {
-    display: inline-block;
-    max-width: 15%;
-    height: 10vh;
-    float: right;
-    border-radius: 3px;
-
-}
 
 
 /**.picbac {
@@ -138,11 +138,6 @@ margin: 5%;
 
 }
 
-.section h3 {
-    padding: 10% 10% 10% 10%;
-    font-family: 'Oswald' sans-serif;
-
-}
 
 
 .footer img {
@@ -150,18 +145,9 @@ margin: 5%;
     max-width: 15%;
     height: 10vh;
     float: left;
-    border-radius: 2px;
     padding-left: 2%;
 
 }
-
-.footer a {
-    display: inline;
-
-}
-
-/** THIS IS A PINK COLOR THAT WAS IN THE NAV
- YOU REALLY LIKED IT. #832161;**/
 
 
  .flip-card {
@@ -170,7 +156,7 @@ margin: 5%;
     margin: 136px;
     background-color: transparent;
     display: inline-block;
-    border-radius: 8px;
+    border-radius: 5px;
     box-sizing: border-box;
     color: #dce0d9;
     
@@ -183,6 +169,7 @@ margin: 5%;
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
+    border-radius: 5px;
   }
 
   .flip-card:hover .flip-card-inner {
@@ -195,24 +182,38 @@ margin: 5%;
     height: 100%;
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
+    border-radius: 5px;
   }
 
   .flip-card-front {
     background-color: #3d2645;
     color: #dce0d9;
+    border-radius: 5px;
+    font-family: 'Lexend Mega', sans-serif;
+
   }
 
-  /**.flip-card-front > h3 {
-      padding: 10% 10% 10% 10%;
-      font-family: 'oswald' sans-serif;
-  }**/
   
   .flip-card-back {
     background-color: #0892a5;
     color: #dce0d9;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
     padding: 4%;
     transform: rotateY(180deg);
+    border-radius: 5px;
   }
 
 
+/** THIS IS A PINK COLOR THAT WAS IN THE NAV
+ YOU REALLY LIKED IT. #832161;**/
+
+  /**.flip-card > p {
+     font-family: 'Roboto' sans-serif;
+     color: #dce0d9;
+ }
+
+/**.audio {
+    padding: 10%;
+    display: inline-block;
+}**/
