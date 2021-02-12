@@ -1,0 +1,29 @@
+
+
+.article {
+    width: 90%;
+    box-sizing: border-box;
+    
+}
+
+
+.article > h1 {
+    text-align: center;
+}
+
+/**.aboutpic {
+    display: inline-block;
+    box-sizing: border-box;
+    float: right;
+    clear: left;
+}
+
+.bio {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 30%;
+    height: 20%;
+    background-color: white;
+
+    
+}**/
