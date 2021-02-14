@@ -43,11 +43,12 @@ body {
 
 .article {
     width: 40%; 
-    height: 80vh; 
+    height: 93vh; 
     margin: 88px;
     background-color: #0892a5;
     border-radius: 5px;
     display: inline-block;
+    
     
     
 }
@@ -55,7 +56,7 @@ body {
 .article > p {
     color: #dce0d9;
     font-family: 'Roboto', sans-serif;
-    margin-bottom: 5%;
-    line-height: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
     
 }
